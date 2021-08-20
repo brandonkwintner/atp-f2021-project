@@ -9,6 +9,7 @@ function App() {
 		<>
 			<Navbar />
 			<Dashboard />
+			<br/><br/>
 			<Footer/>
 		</>
 	)

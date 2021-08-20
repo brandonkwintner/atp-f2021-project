@@ -14,7 +14,7 @@ const Footer = () => {
         <div className={classes.root}>
             <AppBar 
                 className={classes.nav}
-                position="static"
+                position="sticky"
             >
                 <Toolbar>
                     <div className={classes.flex}>
@@ -34,7 +34,6 @@ const useStyles = makeStyles(theme =>({
         flexGrow: 1,
     },
     root: {
-        position:"fixed",
         bottom:0,
         left:0,
         width:"100%",
