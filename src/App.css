@@ -1,1 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@media all and (max-width: 480px) {
+    #tabs { display: none; }
+  }

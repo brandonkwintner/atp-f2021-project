@@ -16,7 +16,7 @@ const MoneyCard = ({ amount, type }) => {
     const classes = useStyles();
 
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} data-testid="moneycard-1">
             <CardContent>
                 <Typography 
                     className={classes.title}

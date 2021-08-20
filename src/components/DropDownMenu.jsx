@@ -15,7 +15,7 @@ const DropDownMenu = () => {
     const [strategy, setStrategy] = useState("Lean")
 
     return (
-        <FormControl className={classes.formControl}>
+        <FormControl className={classes.formControl} data-testid="dropdown-1">
         <InputLabel id="demo-simple-select-label">F.I.R.E Strategy</InputLabel>
         <Select
           labelId="demo-simple-select-label"
